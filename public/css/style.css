@@ -1,0 +1,167 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: #1aa7c3;
+}
+
+.container {
+    width: 680px;
+}
+
+#imgform {
+/*    background-color: #2a4e72;*/
+    border: 3px dashed #e6e6e6;
+    border-radius: 10px;
+    width: 650px;
+    height: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#imgshow {
+/*    background-color: #2a4e72;*/
+    border: 3px dashed #e6e6e6;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.show {
+    width: 70%;
+}
+
+#imgform h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    color: #9a9a9a;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.desc {
+    font-weight: 400;
+}
+
+.arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #9a9a9a;
+}
+
+#file {
+    width: 110px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #1aa7c3;
+    border-color: #1aa7c3;
+}
+
+.btn-primary:hover {
+    background-color: #199db7;
+    border-color: #1aa7c3;
+}
+
+
+
+
+.link {
+    width: 28%;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+}
+
+.input-group {
+    width: 28%;
+    margin: 0 auto;
+}
+
+.input-group-addon {
+    background-color: #fafafa;
+    border: 1px solid #d3d3d3;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Finger Paint', cursive;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 45px;
+}
+
+.logo a {
+    color: #1aa7c3;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #1897b1;
+}
+
+.logoimg {
+    font-size: 50px;
+}
+
+
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -3em;
+}
+
+.footer, .push {
+    height: 3em;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+
